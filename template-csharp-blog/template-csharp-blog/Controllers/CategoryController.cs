@@ -2,9 +2,8 @@
 
 namespace template_csharp_blog.Controllers
 {
-    public class PostController : Controller
+    public class CategoryController : Controller
     {
-        
         public IActionResult Index()
         {
             return View();
