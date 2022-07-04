@@ -25,7 +25,12 @@ namespace template_csharp_blog.Controllers
         public IActionResult Delete(int id)
         {
             Category category = db.Categories.Find(id);
-            db.Categories.Remove(category);
+            return View(category);
+        }
+        [HttpPost]
+        public IActionResult Delete(Category model)
+        {
+            db.Categories.Remove(model);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

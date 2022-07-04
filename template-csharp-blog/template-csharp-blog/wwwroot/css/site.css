@@ -16,3 +16,36 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.form-group{
+    padding-top: 1em;
+}
+
+h5{
+    line-height: 1em;
+}
+
+.nav-item:hover {
+    background-image: url('/Images/speechBubble.png');
+    background-size: cover;
+}
+
+tbody{
+    border: solid black 1px;
+}
+
+.tableBody:nth-child(odd) {
+    background: lightblue;
+}
+
+.tableBody:nth-child(even) {
+    background: #aaa;
+}
+
+.tableButton{
+    text-align: right;
+}
+
+.col-sm-10{
+    max-width: 1000px;
+}
