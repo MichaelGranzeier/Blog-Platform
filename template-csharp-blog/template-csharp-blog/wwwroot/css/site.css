@@ -14,7 +14,9 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-image: url('/Images/BgImage.jpg');
+    background-size: cover;
 }
 
 .form-group{
@@ -48,4 +50,12 @@ tbody{
 
 .col-sm-10{
     max-width: 1000px;
+}
+
+.container{
+    color: black;
+}
+
+.navbar-brand:hover{
+    background: #eee;
 }
